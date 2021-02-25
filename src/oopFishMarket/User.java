@@ -1,15 +1,15 @@
 package oopFishMarket;
 
 public class User {
-    private String name;
+    protected String name;
 
-    private String secondName;
+    protected String secondName;
 
-    private String login;
+    protected String login;
 
-    private String pass;
+    protected String pass;
 
-    private boolean role;
+    protected boolean role;
 
-    private int money;
+    protected int money;
 }

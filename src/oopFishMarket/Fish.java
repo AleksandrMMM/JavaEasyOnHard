@@ -2,11 +2,43 @@ package oopFishMarket;
 
 public class Fish {
 
-    private String name;
+    protected String name;
 
-    private int weight;
+    protected int weight;
 
-    private int price;
+    protected int price;
 
-    private boolean noHead;
+    protected boolean noHead;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public boolean isNoHead() {
+        return noHead;
+    }
+
+    public void setNoHead(boolean noHead) {
+        this.noHead = noHead;
+    }
 }
