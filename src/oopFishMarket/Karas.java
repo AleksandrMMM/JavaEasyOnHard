@@ -5,9 +5,9 @@ public class Karas extends Fish {
     @Override
     public void setPrice(int price) {
         if (isNoHead()){
-            super.setPrice(price + 25);
+            setPrice(price + 15);
         }else {
-            super.setPrice(price);
+            setPrice(price);
         }
 
     }

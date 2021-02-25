@@ -5,9 +5,9 @@ public class Ocun extends Fish {
     @Override
     public void setPrice(int price) {
         if (isNoHead()){
-            super.setPrice(price + 25);
+           setPrice(price + 10);
         }else {
-            super.setPrice(price);
+            setPrice(price);
         }
 
     }
