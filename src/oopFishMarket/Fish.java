@@ -4,9 +4,9 @@ public class Fish {
 
     protected String name;
 
-    protected int weight;
+    protected byte weight;
 
-    protected int price;
+    protected double price;
 
     protected boolean noHead;
 
@@ -18,19 +18,19 @@ public class Fish {
         this.name = name;
     }
 
-    public int getWeight() {
+    public byte getWeight() {
         return weight;
     }
 
-    public void setWeight(int weight) {
+    public void setWeight(byte weight) {
         this.weight = weight;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 

@@ -3,7 +3,7 @@ package oopFishMarket;
 public class Karas extends Fish {
 
     @Override
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         if (isNoHead()){
             setPrice(price + 15);
         }else {

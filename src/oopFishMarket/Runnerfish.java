@@ -12,5 +12,13 @@ public class Runnerfish {
         ocun1.setPrice(43);
 
         System.out.println(ocun1.getPrice());
+
+        User user = new User();
+        user.setRole(Role.CUSTOMER);
+        user.setSecondName("Ivanov");
+
+        System.out.println(user);
+
+
     }
 }
